@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript"src="tools/jquery.js"></script>
+    <script type="text/javascript"src="tools/js/jquerycode.js"></script>
+    <script type="text/javascript"src="tools/js/javascript.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="leftBar">
+            <div class="leftBar-title">
+                <span class="leftBar-title-label">Todo List</span>
+            </div>
+            <div class="leftBar-content">
+                <button class="new-collection" id="addCollection">
+                    <span class="new-collection-link">
+                        <img src="style/img/Plus.svg" alt="plus" class="plus">New Collection
+                    </span>
+                </button>
+                <div class="list-of-collection">
+                    <ul class="collection-item-list" id="collectionItemList"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="rightBar">
+            <div class="rightBar-title">
+                <div class="rightBar-title-row">
+                    <span class="titleOfCollection">Test collection title</span>
+                    <button class="removeCollection" id="removeCollection"><img src="style/img/trash.svg" alt="trash" class="trash"></button>
+                </div>
+                <button class="addTask" id="addTask"><img src="style/img/plus_input.svg" alt="plusInput" class="plusInput"></button>
+                <input type="text" class="todoInput" id="addTodo" placeholder="Type to add new tasks">
+            </div>
+            <div class="rightBar-content"></div>
+        </div>
+    </div>
+</body>
+</html>

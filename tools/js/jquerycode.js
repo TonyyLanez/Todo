@@ -1,0 +1,2 @@
+let arrayOfCollection = [];
+let arrayInCollection = [];
