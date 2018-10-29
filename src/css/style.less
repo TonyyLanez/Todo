@@ -1,0 +1,178 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+ul, ol {
+    overflow:hidden;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
+.leftBar {
+    background: linear-gradient(to top, #5A646D, #113868);
+    min-height: 450px;
+    min-width: 250px;
+    padding: 25px;
+    border-radius: 20px 0 0 20px;
+}
+
+.leftBar-title {
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border: 3px solid white;
+}
+
+.leftBar-content {
+    margin: 20px 0 20px;
+}
+
+.new-collection-link {
+    display: flex;
+    color: #1271EC;
+    align-items: flex-end;
+    font-size: 18px;
+
+    &:hover {
+        color: #0d5abf;
+    }
+
+    &:active {
+        color: #094ca3;
+    }
+}
+
+.new-collection {
+    display: flex;
+    text-align: center;
+    margin-left: 45px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0px !important;
+
+    &:focus {
+        outline: none;
+    }
+
+}
+
+.plus {
+    block-size: 20px;
+    margin-right: 5px;
+}
+
+.todoInput {
+    background: none;
+    border: none;
+    padding: 0px !important;
+    font-weight: 500;
+    margin: 16px 0 0 29px;
+    font-size: 14px;
+    width: 400px;
+
+    &:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.plusInput {
+    block-size: 20px;
+    position: absolute;
+}
+
+.list-of-collection {
+    margin: 20px 0px;
+}
+
+.collection-item-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.collection-item {
+    display: block;
+}
+
+.rightBar-title {
+    position: relative;
+    padding: 15px;
+    min-height: 60px;
+    min-width: 600px;
+    background: linear-gradient(to top, #D7E1ED, #C6E7EC);
+    border-radius: 0 20px 0 0;
+}
+
+.rightBar-content {
+    min-height: 380px;
+    min-width: 600px;
+    background-color: #ffffff;
+    border-radius: 0 0 20px 0;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.rightBar-title-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash {
+    block-size: 20px;
+    position: absolute;
+    
+}
+
+.titleOfCollection {
+    font-size: 20px;
+}
+
+.removeCollection {
+    position: absolute;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0px !important;
+    margin-left: 570px;
+    margin-top: 7px;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+.addTask {
+    position: absolute;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0px !important;
+    margin-top: 15px;
+
+    &:focus {
+        outline: none;
+    }
+}
