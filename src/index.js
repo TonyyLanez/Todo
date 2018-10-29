@@ -1,5 +1,4 @@
 import $ from 'jquery';
-console.log('руддщ');
 let arrayOfCollection = [];
 let arrayInCollection = [];
 let id = 0;
@@ -35,5 +34,4 @@ $(function () {
     });
 });
 
-
-
+import './css/style.css';
